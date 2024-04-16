@@ -9,11 +9,11 @@ Vue 3(Vite) + tailwindcss
 
 ## Simple Dashboard in Vue
 
-[Simple Dashboard in Vue and Tailwind 따라하기](https://youtu.be/P2hwV3MQ-wE?si=ZMGvJmd1glNUD94y)
+youtube [Simple Dashboard in Vue and Tailwind](https://youtu.be/P2hwV3MQ-wE?si=ZMGvJmd1glNUD94y) 따라하기
 
-[vue](https://vuejs.org/guide/quick-start.html)
+[vue](https://vuejs.org)
 
-[tailwindcss](https://tailwindcss.com/docs/installation)
+[tailwindcss](https://tailwindcss.com)
 
 
 ## Project Setup
