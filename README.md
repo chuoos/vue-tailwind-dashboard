@@ -1,14 +1,17 @@
 # vue-tailwind-dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue 3(Vite) + tailwindcss
 
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Customize configuration
+## help
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+[Simple Dashboard in Vue and Tailwind 따라하기](https://youtu.be/P2hwV3MQ-wE?si=ZMGvJmd1glNUD94y)
+
+[vue](https://vuejs.org/guide/quick-start.html)
+[tailwindcss](https://tailwindcss.com/docs/installation)
 
 ## Project Setup
 
@@ -27,3 +30,4 @@ npm run dev
 ```sh
 npm run build
 ```
+
