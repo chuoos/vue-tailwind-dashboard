@@ -8,9 +8,9 @@ Vue 3(Vite) + tailwindcss
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
 ##
-## Simple Dashboard in Vue
+## Simple Dashboard in Vue 따라하기
 
-youtube [Simple Dashboard in Vue and Tailwind](https://youtu.be/P2hwV3MQ-wE?si=ZMGvJmd1glNUD94y) 따라하기
+youtube [Simple Dashboard in Vue and Tailwind](https://youtu.be/P2hwV3MQ-wE?si=ZMGvJmd1glNUD94y)
 
 [vue](https://vuejs.org)
 
@@ -34,5 +34,41 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+##
+### Tailwind CSS info
+#### Install Tailwind CSS
+
+```sh
+npm install -D tailwindcss
+npx tailwindcss init
+```
+
+#### tailwind.config.js Setting
+
+```sh
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+#### your CSS(/src/assets/scss/input.css)
+
+```sh
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+#### build your CSS.
+
+```sh
+npx tailwindcss -i ./src/assets/scss/input.css -o ./src/assets/css/app.css --watch
 ```
 
