@@ -1,4 +1,4 @@
-# vue-tailwind-dashboard
+# 🐸 vue-tailwind-dashboard
 
 Vue 3(Vite) + tailwindcss
 
@@ -18,7 +18,7 @@ youtube [Simple Dashboard in Vue and Tailwind](https://youtu.be/P2hwV3MQ-wE?si=Z
 
 
 ##
-### Project Setup
+### 📌 Project Setup
 
 ```sh
 npm install
@@ -37,7 +37,7 @@ npm run build
 ```
 
 ##
-### Tailwind CSS info
+### 📌 Tailwind CSS info
 #### Install Tailwind CSS
 
 ```sh
