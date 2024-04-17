@@ -74,3 +74,7 @@ export default {
 npx tailwindcss -i ./src/assets/scss/input.css -o ./src/assets/css/app.css --watch
 ```
 
+##
+### 📌 heroicons
+
+Icon [heroicons](https://heroicons.com/)
