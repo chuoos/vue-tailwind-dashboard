@@ -1,7 +1,7 @@
 <template>
   <div class="w-screen h-screen flex">
     <!-- side bar -->
-    <aside class="w-[400px] h-full bg-gray-200 text-white transition" v-show="showSide">
+    <aside class="w-[400px] h-full bg-gray-200 text-white" v-show="showSide">
       <header class="h-[50px] bg-gray-900 flex justify-center items-center">
         <h1 class="font-bold text-xl">Admin Dashboard</h1>
       </header>
@@ -123,8 +123,8 @@
         </div>
       </div>
 
-      <div class="h-[calc(100vh-50px)] bg-gray-50 p-5">
-        <div class="border rounded-md h-full p-5 bg-white">
+      <div class="h-[calc(100vh-50px)] bg-gray-50 p-5 overflow-auto">
+        <div class="border rounded-md h-100 p-5 bg-white">
           <router-view></router-view>
         </div>
       </div>
