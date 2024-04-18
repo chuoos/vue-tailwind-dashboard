@@ -75,6 +75,6 @@ npx tailwindcss -i ./src/assets/scss/input.css -o ./src/assets/css/app.css --wat
 ```
 
 ##
-### 📌 heroicons
-
-Icon [heroicons](https://heroicons.com/)
+### 📌 heroicons, webfont(pretendard)
+* icon [heroicons](https://heroicons.com/)
+* webfont [pretendard-github](https://github.com/webfontworld/pretendard)
