@@ -124,6 +124,12 @@
   /* 유틸리티로 재정의할 수 있는 클래스 기반 스타일을 위한 레이어 */
   /* 카드, 버튼과 같이 재사용성이 높은 유틸리티 클래스를 만들 때 사용 */
 
+
+
+  /* @apply 지시문을 피하는 것이 좋음.
+  지시문을 사용하면 코드가 더 깔끔해 보일 수 있지만, 
+  CSS 클래스 이름을 만들 때 고민해야 하는 일이 적고 스타일을 변경할 때 회귀가 없다는 Tailwind 주요 장점을 버리게 됩니다. 
+  이는 @apply를 사용하면 컴포넌트 내에서 격리되지 않기 때문입니다. 또한 CSS 번들 크기가 증가 */
   .table__thead--hover {
     @apply cursor-pointer p-2 border-y border-gray-100 bg-gray-50 text-gray-600 text-sm font-bold leading-none transition-colors hover:text-blue-800
   }

@@ -12,9 +12,7 @@ Vue 3(Vite) + tailwindcss
 
 youtube [Simple Dashboard in Vue and Tailwind](https://youtu.be/P2hwV3MQ-wE?si=ZMGvJmd1glNUD94y)
 
-[vue](https://vuejs.org)
-
-[tailwindcss](https://tailwindcss.com)
+[vue](https://vuejs.org) + [tailwindcss](https://tailwindcss.com)
 
 
 ##

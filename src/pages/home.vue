@@ -24,11 +24,14 @@
       </ol>
     </nav>
 
+    <div class="px-12 flex-col gap-10 py-5 flex w-full">전</div>
+    <div class="flex w-full flex-col gap-10 px-12 py-5">후</div>
+    
     <!--https://tailwindcomponents.com/component/customers-table-->
     <div class="flex justify-between items-center py-4">
       <h3 class="text-xl font-bold">Table title</h3>
       <div class="flex flex-wrap space-x-1">
-        <button type="button" class="flex items-center rounded-md bg-blue-700 px-2 pt-1 pb-2 text-sm font-semibold leading-none text-white
+        <button type="button" class="flex items-center rounded-md bg-blue-700 px-2 pt-1 pb-2 text-sm leading-none text-white  font-semibold 
         hover:bg-blue-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 transition-colors">
           <svg class="w-4 h-4 mr-1.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
@@ -56,7 +59,7 @@
       <table class="w-full min-w-max table-auto text-left">
         <thead>
           <tr>
-            <th class="cursor-pointer p-2 border-y border-gray-100 bg-gray-50 text-gray-600 text-sm font-bold leading-none transition-colors hover:text-gray-800">
+            <th class="table__thead--hover">
               <p class="flex items-center justify-between gap-2 opacity-70">Project
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="h-4 w-4">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"></path>

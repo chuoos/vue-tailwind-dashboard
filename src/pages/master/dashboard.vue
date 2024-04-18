@@ -1,7 +1,7 @@
 <template>
-  <div class="w-screen h-screen flex">
+  <div class="flex w-full h-full">
     <!-- side bar -->
-    <aside class="w-[400px] h-full bg-gray-200 text-white" v-show="showSide">
+    <aside class="w-[400px] h-full text-white  bg-gray-200" v-show="showSide">
       <header class="h-[50px] bg-gray-900 flex justify-center items-center">
         <h1 class="font-pretendard font-bold text-xl">Admin Dashboard</h1>
       </header>
@@ -60,10 +60,10 @@
       <div class="h-[50px] w-full flex items-center px-5 shadow-sm bg-gray-100 border-b z-10">
         <!-- hambuger menu -->
         <div class="cursor-pointer w-[30px]" @click="toggleSideBar">
-          <svg v-show="showSide" id="navClosed" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <svg v-show="showSide" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
-          <svg v-show="!showSide" id="navOpen" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <svg v-show="!showSide" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </div>
