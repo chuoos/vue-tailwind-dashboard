@@ -3,7 +3,7 @@
     <!-- side bar -->
     <aside class="w-[400px] h-full bg-gray-200 text-white" v-show="showSide">
       <header class="h-[50px] bg-gray-900 flex justify-center items-center">
-        <h1 class="font-bold text-xl">Admin Dashboard</h1>
+        <h1 class="font-pretendard font-bold text-xl">Admin Dashboard</h1>
       </header>
 
       <div class="h-[calc(100vh-50px)] p-5 bg-gray-800">

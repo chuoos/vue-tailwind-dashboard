@@ -18,7 +18,10 @@ export default {
             "800": "#37404c",
             "900": "#282e38",
           },
-        }
+        },
+        fontFamily: {
+          pretendard: ["Pretendard"],
+        },
       },
     },
   plugins: [],
