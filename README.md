@@ -70,6 +70,7 @@ export default {
 
 ```sh
 npx tailwindcss -i ./src/assets/scss/input.css -o ./src/assets/css/app.css --watch
+npx tailwindcss -o ./src/assets/css/app.min.css --minify
 ```
 
 ##
